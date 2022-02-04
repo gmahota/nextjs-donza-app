@@ -23,7 +23,7 @@ import React from 'react';
  import { NAVIGATION } from '../lib/constants';
  import styles from './style.module.css';
  import Logo from '../icons/icon-logo';
- //import MobileMenu from './mobile-menu';
+ import MobileMenu from '../components/elements/mobile-menu';
  import Footer, { HostedByVercel } from './footer';
  import ViewSource from '../components/elements/view-source';
   
@@ -38,9 +38,9 @@ import React from 'react';
          {!hideNav && (
            <header className={cn(styles.header)}>
              <div className={styles['header-logos']}>
-               {/* <MobileMenu key={router.asPath} /> */}
+               <MobileMenu key={router.asPath} /> 
                <Link href="/">
-                 {/* eslint-disable-next-line */}
+                
                  <a className={styles.logo}>
                    <Logo />
                  </a>
