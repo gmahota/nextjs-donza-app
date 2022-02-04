@@ -17,13 +17,13 @@
 export const SITE_URL = 'https://nextjs-donza-app.vercel.app';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
 export const TWITTER_USER_NAME = 'vercel';
-export const BRAND_NAME = 'Donza Learn App';
+export const BRAND_NAME = 'Donza Learning App';
 export const SITE_NAME_MULTILINE = ['Donza', 'Learn', 'App'];
-export const SITE_NAME = 'Donza Learn App';
+export const SITE_NAME = 'Donza Learning App';
 export const META_DESCRIPTION =
   'This is an open source demo that Next.js developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
 export const SITE_DESCRIPTION =
-  'Easy app to learn about english. ';
+  'An Easy way to Learn english.  ';
 export const DATE = 'Janeiro 05, 2022';
 export const SHORT_DATE = 'Jan 05 - 20:30pm PST';
 export const FULL_DATE = 'Jan 05th 6pm Pacific Time (GMT-7)';
