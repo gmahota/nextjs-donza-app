@@ -41,16 +41,32 @@ export const REPO = 'https://github.com/gmahota/nextjs-donza-app';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
-    name: 'Stage A',
-    route: '/stage/a'
+    name: 'Courses',
+    route: '/level'
   },
   {
-    name: 'Schedule',
-    route: '/schedule'
+    name: 'A1',
+    route: '/level/a1'
   },
   {
-    name: 'Speakers',
-    route: '/speakers'
+    name: 'A2',
+    route: '/level/a2'
+  },
+  {
+    name: 'B1',
+    route: '/level/b1'
+  },
+  {
+    name: 'B2',
+    route: '/level/b2'
+  },
+  {
+    name: 'C1',
+    route: '/level/c1'
+  },
+  {
+    name: 'C2',
+    route: '/level/c2'
   },
   {
     name: 'Expo',
@@ -58,7 +74,7 @@ export const NAVIGATION = [
   },
   {
     name: 'Register',
-    route: '/jobs'
+    route: '/register'
   }
 ];
 
