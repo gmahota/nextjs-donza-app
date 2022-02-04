@@ -67,7 +67,8 @@ export const NAVIGATION = [
   {
     name: 'C2',
     route: '/level/c2'
-  },
+  }
+  ,
   {
     name: 'Expo',
     route: '/expo'
